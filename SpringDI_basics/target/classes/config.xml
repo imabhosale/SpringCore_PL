@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Example of a bean declaration -->
+    <bean class="com.abhi.springcore.Student" name="student1">
+        <property name="id">
+			<value>10</value>
+		</property>
+		
+		<property name="name">
+			<value>abhishek bhosale</value>
+		</property>
+		<property name="Address">
+			<value>pune maharashtra</value>
+		</property>
+    </bean>
+    
+    
+    
+    
+
+</beans>
